@@ -24,9 +24,7 @@ count = 0
 for letter in chosen_word:
   if letter == guess:
       display[count] = letter        
-      
-  else:
-      print("Wrong")
+
 
   count += 1 
 
